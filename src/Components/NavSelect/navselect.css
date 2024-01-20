@@ -1,0 +1,97 @@
+.grid-bg {
+    position: relative;
+}
+
+
+
+
+.col-difine {
+    display: grid;
+    grid-template-columns: 300px 4fr;
+    max-width: 1060px;
+    width: 100%;
+    left: 20px;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 58px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #F4F4EC;
+}
+
+
+.brandname {
+    background-color: #f7f7f7;
+    padding: 20px 15px;
+}
+
+.brandwrapper {
+    background-color: #ffffff;
+    padding: 20px 15px;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    .col-difine {
+        left: 0;
+    }
+}
+
+
+.listing .name-top {
+    list-style: none;
+    padding: 10px 0px !important;
+    font-weight: 600 !important;
+    color: rgba(3, 2, 26, 0.6);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.navselect .listing li {
+    display: block !important;
+    margin: 3px 0px !important;
+    padding-left: 0;
+}
+
+.navselect .listing li a {
+    color: rgba(3, 2, 26, 0.6);
+    font-weight: 400 !important;
+}
+
+.listing {
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+.brand-search {
+    display: grid;
+    grid-template-columns: 250px 4fr;
+}
+
+.alphacheck {
+    padding: 10px 5px;
+}
+
+.alphacheck p a {
+    color: rgba(3, 2, 26, 0.6);
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.listing::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.listing {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

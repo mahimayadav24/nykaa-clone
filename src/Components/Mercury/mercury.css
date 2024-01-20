@@ -1,0 +1,11 @@
+.designerimg{
+    max-width: 1460px;
+    padding: 0px 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.designerimg img{
+    width: 100%;
+    margin: auto;
+}

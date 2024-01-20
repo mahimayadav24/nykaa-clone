@@ -1,0 +1,98 @@
+.aliceslider img {
+    width: 100%;
+    /* min-height: 250px; */
+    border-radius: 10px;
+}
+
+.aliceslider {
+    padding: 0px 40px 20px 40px;
+}
+
+
+.alice-carousel__next-btn {
+    position: absolute;
+    right: 15px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 55px !important;
+    height: 55px !important;
+    background-color: #fff;
+    border-radius: 100px;
+    display: flex !important;
+    align-items: center;
+    border: 1px solid #8080802e;
+    justify-content: center;
+}
+
+.alice-carousel__next-btn-item span {
+    font-size: 30px !important;
+}
+
+.alice-carousel__dots {
+    display: none !important;
+}
+
+.alice-carousel__prev-btn {
+    position: absolute;
+    left: 15px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 55px !important;
+    height: 55px !important;
+    background-color: #fff;
+    border-radius: 100px;
+    display: flex !important;
+    align-items: center;
+    border: 1px solid #8080802e;
+    justify-content: center;
+}
+
+.alice-carousel__prev-btn-item span {
+    font-size: 30px !important;
+}
+
+.alice-carousel__prev-btn [data-area]::after {
+    position: relative;
+    content: "‹" !important;
+    text-transform: capitalize;
+}
+
+
+.alice-carousel__next-btn [data-area]::after{
+    position: relative;
+    content: "›" !important;
+    text-transform: capitalize;
+}
+
+.alice-carousel__prev-btn-wrapper{
+    transform: translate(-1px, -1px) !important;
+}
+
+.alice-carousel__next-btn-wrapper{
+    transform: translate(-1px, -1px) !important;
+}
+
+.viw{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 10px;
+}
+
+.viw a{
+    text-align: end;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #E80071;
+}
+
+.viw h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+.aliceslider .alice-carousel__stage-item{
+    padding: 0px 8px !important;
+}

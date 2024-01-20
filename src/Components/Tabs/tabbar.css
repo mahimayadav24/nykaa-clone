@@ -1,0 +1,31 @@
+.tab-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.tab-grid a {
+    padding: 10px 8px;
+    background-color: #d8d8d8;
+}
+
+
+.tab-grid a {
+    color: #000000 !important;
+
+}
+
+
+.tab-grid a:hover, .tab-grid a.active {
+    color: #fff !important;
+    background-color: #fc2779;
+}
+
+
+.itemsdata{
+    text-align: center;
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

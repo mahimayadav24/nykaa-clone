@@ -1,0 +1,86 @@
+
+/* round card */
+.derma-com {
+    padding: 10px 40px 30px 40px;
+}
+
+
+
+.derma-com img{
+    width: 100%;
+}
+
+
+.derma-com .owl-next {
+    right: -20px;
+}
+
+
+
+.derma-com .owl-prev {
+    left: -20px;
+}
+
+/* round card */
+
+
+/* category */
+
+
+.smallcr .owl-carousel.owl-loaded{
+    padding: 20px 40px;
+}
+
+.smallcr .owl-carousel .owl-item img{
+    border-radius: 10px;
+}
+
+
+/* category */
+
+
+/* explore */
+.imagexp{
+    background-color: #F3F4F5;
+}
+
+.explorebrands{
+    padding: 0px 40px 20px 40px;
+}
+
+.expoelements{
+    position: relative;
+    top: 0;
+}
+
+.exptext{
+    position: absolute;
+    top: 80%;
+}
+
+.explorebrands img{
+    border-radius: 10px;
+}
+
+.exptext h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #001325;
+}
+
+.exptext p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #57636e;
+}
+
+.explorebrands .owl-next {
+    right: -20px;
+}
+
+
+
+.explorebrands .owl-prev {
+    left: -20px;
+}
+/* explore */

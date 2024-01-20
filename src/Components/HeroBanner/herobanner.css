@@ -1,0 +1,120 @@
+.herotheme {
+    padding: 130px 40px 20px 40px;
+}
+
+
+
+.owl-next {
+    top: 50%;
+    position: absolute;
+    right: -20px;
+    transform: translateY(-50%);
+}
+
+
+
+.owl-prev {
+    top: 50%;
+    position: absolute;
+    left: -20px;
+    transform: translateY(-50%);
+}
+
+
+.owl-nav button {
+    width: 55px !important;
+    height: 55px !important;
+    border: 1px solid rgba(3, 2, 26, 0.6);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #fff !important;
+    font-size: 35px !important;
+    color: #000 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 100px !important;
+
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    margin: 0px !important;
+}
+
+.owl-nav button span {
+    transform: translateY(-4px);
+}
+
+
+.owl-dots {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .herotheme {
+        padding: 160px 40px 20px 40px;
+    }
+
+}
+
+.herotheme .owl-carousel .owl-item img {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.outline {
+    position: absolute;
+    bottom: 20%;
+    left: 30px;
+}
+
+.itemdatacro {
+    position: relative;
+    top: 0;
+}
+
+.itemdatacro h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.itemdatacro p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* blue-dove */
+.blue-dove {
+    background-color: rgb(232, 243, 253);
+    margin-top: 20px;
+}
+
+.smallcr .owl-next {
+    top: 50%;
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+
+.smallcr .owl-prev {
+    top: 50%;
+    position: absolute;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.focuson {
+    background-color: #F3F4F5;
+    margin: 20px 0px;
+}
+
+.imagefg {
+    padding: 0px 40px 20px 40px;
+}
+
+.imagefg img {
+    border-radius: 10px;
+}

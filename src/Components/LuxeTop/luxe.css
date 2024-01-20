@@ -1,0 +1,19 @@
+.skinitems{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+
+
+.col-difiness {
+    max-width: 1060px;
+    width: 100%;
+    left: 20px;
+    margin: auto;
+    position: absolute;
+    z-index: 7;
+    top: 58px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #F4F4EC;
+}
